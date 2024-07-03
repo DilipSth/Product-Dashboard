@@ -18,7 +18,7 @@ const Layout = () => {
     <div className="flex flex-row bg-neutral-100 h-full w-full overflow-hidden">
       {loading && <Loading />}
       <Sidebar />
-      <div className="flex-1">
+      <div className="flex-1 ml-60">
         <Header />
         <div className="p-4">
           <Outlet />
